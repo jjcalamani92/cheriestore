@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { IClothing, } from "../../src/interfaces";
+import { IMakeup, } from "../../src/interfaces";
 import { CATEGORY } from "../../src/gql/query";
 import { Category, ISeo} from '../../src/interfaces/Site';
 import { SBS } from "../../src/gql/siteQuery";
@@ -34,8 +34,8 @@ const CategoryPage:FC<Props>= ({seo, category}) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async (ctx) => {
-  const { clothingAll } = await graphQLClientP.request(CATEGORY, { site: `${process.env.API_SITE}`})
-	const paths = clothingAll.map((data:IClothing) => ({
+  const { makeupAll } = await graphQLClientP.request(CATEGORY, { site: `${process.env.API_SITE}`})
+	const paths = makeupAll.map((data:IMakeup) => ({
     params: { category: data.category}
   }))
 	return {
@@ -77,7 +77,7 @@ export default CategoryPage;
 
 // import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 
-// import { IClothing, } from "../../src/interfaces";
+// import { IMakeup, } from "../../src/interfaces";
 // import { CATEGORY } from "../../src/gql/query";
 // import { client } from "../../src/apollo";
 // import { Category} from '../../src/interfaces/Site';
@@ -135,15 +135,15 @@ export default CategoryPage;
 // 	// console.log(JSON.stringify(datas, undefined, 2))
 // 	// const {site} = await graphQLClientS.request(SBS, {id: process.env.API_SITE})
 // 	// console.log(JSON.stringify(site, undefined, 2))
-//   const { clothingAll } = await graphQLClientP.request(CATEGORY, { site: `${process.env.API_SITE}`})
-// 	// console.log(JSON.stringify(clothingAll, undefined, 2 ));
-// 	// console.log(clothingAll)
+//   const { makeupAll } = await graphQLClientP.request(CATEGORY, { site: `${process.env.API_SITE}`})
+// 	// console.log(JSON.stringify(makeupAll, undefined, 2 ));
+// 	// console.log(makeupAll)
 // 	// const { data } = await client.query({
 // 	// 	query: CATEGORY,
 //   //   variables: { site: `${process.env.API_SITE}`},
 // 	// });
 // 	// console.log(data)
-// 	const paths = clothingAll.map((data:IClothing) => ({
+// 	const paths = makeupAll.map((data:IMakeup) => ({
 //     params: { category: data.category}
 //   }))
 // 	return {

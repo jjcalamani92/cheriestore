@@ -1,7 +1,7 @@
 import mongoose, { Schema, model, Model } from 'mongoose';
-import { IClothing } from '../interfaces';
+import { IMakeup } from '../interfaces';
 
-const clothingSchema = new Schema({
+const makeupSchema = new Schema({
   name: { type: String, default: ''},
   brand: { type: String, default: ''},
   image: [{ type: String}],
@@ -13,14 +13,15 @@ const clothingSchema = new Schema({
   price: { type: Number, default: 0},
   oldPrice: { type: Number, default: 0},
   tags: [{ type: String}],
-  sizes: [{ type: String}],
-  color: { type: String, default: 0},
   site: { type: String, default: 0},
   slug: { type: String},
   status: { type: Boolean},
+  
+  tone: { type: String, default: 'tono'},
+  color: [{ type: String}],
 })
 
-const Clothing:Model<IClothing> = mongoose.models.Clothing || model('Clothing',clothingSchema);
+const Makeup:Model<IMakeup> = mongoose.models.Makeup || model('Makeup',makeupSchema);
 
-export default Clothing;
+export default Makeup;
 

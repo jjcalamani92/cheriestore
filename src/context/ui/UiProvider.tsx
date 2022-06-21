@@ -16,10 +16,10 @@ const UI_INITIAL_STATE: UiState = {
 	isCartOpen: false,
 	site: {
 		_id: "w",
-		title: "Fierros",
-		domain: "fierrosferreteria.com",
+		title: "Cherie",
+		domain: "cherie.com",
 		// logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/v1647095547/piccoletti-logo_j6hxbw.jpg",
-		logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/v1648919933/Ferreteria/l91xephj1ctcxor7h06d.png",
+		logo: "https://res.cloudinary.com/dvcyhn0lj/image/upload/v1647453014/cosmetic/0059_t_cherie_s-beauty-logo_11_gb24c5.png",
 		numberPhone: "68175851",
 		address: "av fatima",
 		description: "av fatima",
@@ -42,8 +42,8 @@ const UI_INITIAL_STATE: UiState = {
 				],
 				sections: [
 					{
-						_id: 'clothing',
-						name: 'Clothing',
+						_id: 'makeup',
+						name: 'Makeup',
 						href: '#',
 						description: 'ropa para mujer',
 						imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',

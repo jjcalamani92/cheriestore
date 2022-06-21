@@ -1,4 +1,4 @@
-export interface IClothing {
+export interface IMakeup {
 	_id: string;
 	name: string;
 	brand: string;
@@ -16,7 +16,7 @@ export interface IClothing {
 	status: boolean;
 	site: string;
 
-	color: string;
-	sizes: string[];
+	tone: string;
+	color: string[];
 
 }

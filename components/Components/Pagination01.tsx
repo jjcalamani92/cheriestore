@@ -52,11 +52,11 @@ export const Pagination01:FC<Props> = ({setPage, page, length, all}) => {
               {/* <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" /> */}
 
             </button>
-            {/* Current: "z-10 bg-red-50 border-red-500 text-red-600", Default: "bg-white border-gray-300 text-gray-500 hover:bg-gray-50" */}
+            {/* Current: "z-10 bg-pink-50 border-pink-500 text-pink-600", Default: "bg-white border-gray-300 text-gray-500 hover:bg-gray-50" */}
             {/* <a
               href="#"
               aria-current="page"
-              className="z-10 bg-red-50 border-red-500 text-red-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium"
+              className="z-10 bg-pink-50 border-pink-500 text-pink-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium"
             >
               1
             </a>

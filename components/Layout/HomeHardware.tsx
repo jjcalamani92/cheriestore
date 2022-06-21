@@ -3,7 +3,7 @@ export const HomeHardware = () => {
 		<section className="relative bg-white">
 			<img
 				className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
-				src="https://res.cloudinary.com/dvcyhn0lj/image/upload/v1655137811/Ferreteria/Ferreteria_rxmqk6.webp"
+				src="https://res.cloudinary.com/dvcyhn0lj/image/upload/v1646399063/cosmetic/home/home-img-1_a7zfwf.png"
 				alt="Couple on a bed with a dog"
 			/>
 
@@ -13,7 +13,7 @@ export const HomeHardware = () => {
 				<div className="max-w-xl text-center sm:text-left">
 					<h1 className="text-3xl font-extrabold sm:text-5xl">
 						La calidad esta
-						<strong className="font-extrabold text-red-600 sm:block">
+						<strong className="font-extrabold text-pink-600 sm:block">
 							Disponible
 						</strong>
 					</h1>
@@ -24,14 +24,14 @@ export const HomeHardware = () => {
 
 					<div className="flex flex-wrap gap-4 mt-8 text-center">
 						<a
-							className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-red-500 sm:w-auto active:bg-red-500 hover:bg-red-600 focus:outline-none focus:ring"
+							className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-pink-500 sm:w-auto active:bg-pink-500 hover:bg-pink-600 focus:outline-none focus:ring"
 							href=""
 						>
 							Ver Productos
 						</a>
 
 						<a
-							className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-red-500 sm:w-auto hover:text-red-600 active:text-red-500 focus:outline-none focus:ring"
+							className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-pink-500 sm:w-auto hover:text-pink-600 active:text-pink-500 focus:outline-none focus:ring"
 							href=""
 						>
 							Descuentos
