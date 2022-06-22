@@ -6,7 +6,6 @@ export const HomeHardware = () => {
 				src="https://res.cloudinary.com/dvcyhn0lj/image/upload/v1646399063/cosmetic/home/home-img-1_a7zfwf.png"
 				alt="Couple on a bed with a dog"
 			/>
-
 			<div className="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-white sm:to-transparent"></div>
 
 			<div className="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
@@ -19,7 +18,7 @@ export const HomeHardware = () => {
 					</h1>
 
 					<p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-						Fierros es una ferretería que ofrece toda una gama de herramientas para arreglar los desperfectos del hogar.
+						Tu tienda de cosmeticos online en La Paz, Bolivia.
 					</p>
 
 					<div className="flex flex-wrap gap-4 mt-8 text-center">
